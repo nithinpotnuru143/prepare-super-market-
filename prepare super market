@@ -1,0 +1,26 @@
+rice=1050
+oil=2000
+nuts=1000
+atta=200
+sugar=1900
+cname=input('enter customer name')
+cphno=int(inout('enter customer phone number')
+riceq=input('enter rice quantity')
+oilq=input('enter oil quantity')
+nutsq=input('enter nuts quantity')
+attaq=input('enter atta quantity')
+sugarq=input('enter sugar qantity')
+bill=(rice*riceq)+(oil*oilq)+(nuts*nutsq)+(atta*attaq)+(sugar*sugarq)
+bill=bill-disc+tax
+    if bill>=5000:
+    disc=bill*10/100
+    elif bill>=3000:
+    disc=bill*8/100
+    tax=bill*10/100
+    elif bill>=2000:
+    disc=bill*5/100
+    elif bill>=1000:
+    disc=bill*3/100
+    else:
+    tax=bill*18/100
+    
